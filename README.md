@@ -38,16 +38,17 @@
 
 6. **可视化看板**  
    - 使用 Tableau 制作漏斗图、流失率条形图、客单价地图、RFM 分层饼图等  
-   - 看板截图及交互链接见 `dashboard/` 文件夹
+   - 看板截图见 `dashboard/` 文件夹
 
 ## 目录结构
-├── data/ # 原始数据（因文件较大未上传，可自行下载）
-├── 电商分析.ipynb
-├── output/ # 输出结果
-│ ├── analysis_output.xlsx # 汇总表（10个Sheet）
-│ └── funnel_analysis.csv
-| └── dashboard_data.csv
-├── 电商分析.twb 看板截图和工作簿
-├── 电商分析报告.docx  # 分析报告
-├── README.md # 项目说明
+
+- `data/` - 原始数据（因文件较大未上传，可自行下载）
+- `电商分析.ipynb` - Jupyter Notebook 主分析代码
+- `output/` - 输出结果
+  - `analysis_output.xlsx` - 汇总表（10个Sheet）
+  - `funnel_analysis.csv`
+  - `dashboard_data.csv`
+- `dashboard/` - Tableau 看板文件及截图
+- `电商分析报告.docx` - 完整分析报告
+- `README.md` - 项目说明
 
